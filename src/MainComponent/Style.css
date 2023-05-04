@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.subContainer {
+  display: grid;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.subContainerCondition{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  height: 510px;
+  border: 2px solid black;
+}
+
+div.elements{
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #eae3e3;
+  overflow-y: scroll;
+}
+
+/*  to Remove Scroll */
+
+.elements::-webkit-scrollbar {
+  display: none;
+}
+
+
+input[type="search"] {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 95%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0px;
+}
+
+input[type="search"]:focus {
+  outline: none;
+}
+
+
+
+.Items {
+  height: 60px;
+  margin-top: 4px;
+  margin-left: 2px;
+}
+.isActive{
+  background-color: #f1f3f6;
+  
+}
+.Items:hover {
+  background-color: #f1f3f6;
+  cursor: pointer;
+}
+
+.chatBot {
+  display: block;
+  width: 100%;
+}
+
+.chatContainer {
+  width: 100%;
+  border: none;
+}
+
+.chattingArea {
+  background-color: #f5f5f5;
+  height: 400px;
+  text-align: center;
+  position: relative;
+  top:10px
+}
+
+div.inputText {
+  display: flex;
+  width: 100%;
+  border: 1px solid gray;
+  position: relative;
+  top:10px
+}
+
+.inputText input[type="text"] {
+  margin-left: 20px;
+  width: 90%;
+  height: 35px;
+  background: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+.inputText input[type="text"]:focus {
+  outline: none;
+}
+
+.hitButton{
+color: gray;
+height: 35px;
+cursor: pointer;
+}
+
+
+
+.arrayInput{
+  text-decoration-style: none;
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* .botChat{
+    display: inline;
+    height: 50px;
+    border: 1;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 100px;
+} */

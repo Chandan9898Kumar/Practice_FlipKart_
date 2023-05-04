@@ -1,6 +1,6 @@
 import React from "react";
 const RenderedData = ({ item ,displayChat}) => {
-  return (console.log(item,'item',displayChat),
+  return (
     <>
       <div className={item.orderId===displayChat.orderId? 'isActive':'Items'}>
         <img src={item.imageURL} alt={item.title} width="30px" height="40px" />
